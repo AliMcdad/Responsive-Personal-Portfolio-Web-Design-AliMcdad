@@ -83,18 +83,18 @@ section {
   display: none;
 }
 
-/* .home {
-  position: relative;
-  width: 100%;
-  justify-content: space-between;
-  height: 100vh;
-  background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
+.home {
+  /* position: relative;
+  width: 100%; */
+  justify-content: center;
+  /* height: 100vh; */
+  /* background: url('https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   display: flex;
   align-items: center;
-  padding: 70px 10% 0;
-} */
+  /* padding: 70px 10% 0; */
+}
 
 .home-content {
   max-width: 600px;
