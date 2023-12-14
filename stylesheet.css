@@ -309,7 +309,7 @@ span {
 }
 
 .portfolio {
-  background: var(--second-bg-color);
+  background:var(--bg-color)
 }
 
 /*Keys for bar*/
