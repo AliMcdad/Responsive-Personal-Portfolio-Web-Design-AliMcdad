@@ -70,7 +70,8 @@ body {
   animation-delay: calc(.2s * var(--i)); */
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.active {
   color: var(--main-color)
 }
 
