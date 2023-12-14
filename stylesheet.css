@@ -103,6 +103,7 @@ span {
 
 .home-img {
   width: 35vw;
+  border-radius: 8px;
 }
 
 /* 
@@ -226,7 +227,7 @@ span {
   /* min-width: 630px;
   height: auto; */
   width: 35vw;
-  /* border-radius: 8px; */
+  border-radius: 8px;
 }
 
 .heading {
