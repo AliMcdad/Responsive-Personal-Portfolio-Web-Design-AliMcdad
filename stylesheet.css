@@ -11,24 +11,24 @@
   font-family: 'poppins', sans-serif;
 }
 
-/* :root {
+:root {
   --bg-color: #ededed;
   --second-bg-color: #31473A;
   --text-color: #31473A;
   --main-color: #EAB63E;
-} */
+}
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
 
-body{
+/* body{
   background: var(--bg-color);
   color: var(--text-color);
   background: #010e0c;
   color: #ededed; 
-}
+} */
 
 section {
   min-height: 100vh;
