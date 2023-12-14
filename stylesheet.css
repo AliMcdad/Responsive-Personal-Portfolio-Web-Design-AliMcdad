@@ -143,6 +143,7 @@ span {
 
 .home-content p {
   font-size: 1.6rem;
+  text-align: center;
   /* opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s; */
