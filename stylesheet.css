@@ -298,6 +298,10 @@ span {
   font-size: 2.6rem;
 }
 
+.services-box p {
+  margin: 1rem 0 3rem;
+}
+
 .read {
   display: inline-block;
   padding: 12px 28px;
