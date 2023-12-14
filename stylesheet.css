@@ -135,10 +135,10 @@ section {
 }
 
 .home-content p {
-  font-size: 20px;
-  opacity: 0;
+  font-size: 1.6rem;
+  /* opacity: 0;
   animation: slideLeft 1s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 1s; */
 }
 
 .social-media a {
