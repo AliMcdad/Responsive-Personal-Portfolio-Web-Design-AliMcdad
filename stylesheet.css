@@ -145,26 +145,27 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   background: transparent;
-  border: 2px solid #7C8363;
+  border: .2rem solid var(--main-color);
   border-radius: 50%;
-  font-size: 20px;
-  color: #7C8363;
-  text-decoration: none;
+  font-size: 2rem;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
+  /* text-decoration: none; */
   transition: .5s ease;
-  opacity: 0;
+  /* opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
-  margin: 30px 15px 30px 0;
+  margin: 30px 15px 30px 0; */
 }
 
 .social-media a:hover {
-  background: #7C8363;
-  color: #010e0c;
-  box-shadow: 0 0 5px #7C8363,
-    0 0 25px #7C8363, 0 0 50px #7C8363;
+  background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color),
+    /* 0 0 25px #7C8363, 0 0 50px #7C8363; */
 }
 
 .btn-box {
