@@ -272,7 +272,7 @@ span {
 }
 
 .services-container {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
