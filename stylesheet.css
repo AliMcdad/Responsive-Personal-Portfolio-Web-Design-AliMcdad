@@ -25,7 +25,8 @@ html {
 
 body{
   background: var(--bg-color);
-  color: var(--text-color); 
+  color: var(--text-color);
+  color: #ededed; 
   background: #010e0c;
 }
 
@@ -319,15 +320,6 @@ span {
   }
 }
 
-.Technical-bars .bar .progress-line span {
-  height: 100%;
-  background-color: #EDF4F2;
-  position: absolute;
-  border-radius: 10px;
-  animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(0);
-  transform-origin: left;
-}
 
 /*keys for slide Typed>>>>>>*/
 
