@@ -253,15 +253,24 @@ section {
   margin: 2rem 0 3rem;
 }
 
-#services {
+/* #services {
   color: #EDF4F2;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
+} */
+
+.services h2 {
+  margin-bottom: 5rem;
 }
 
-.container {
-  padding: 90px;
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
 }
 
 .sub-title {
