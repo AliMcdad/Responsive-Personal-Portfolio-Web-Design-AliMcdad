@@ -26,7 +26,7 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
-  color: #ededed;
+  color: #ededed; 
   background: #010e0c;
 }
 
@@ -287,6 +287,12 @@ span {
   border-radius: 2rem;
   text-align: center;
   border: .2rem solid var(--bg-color);
+  transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
 }
 
 .services-box i {
