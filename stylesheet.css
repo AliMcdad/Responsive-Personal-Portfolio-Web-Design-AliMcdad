@@ -25,8 +25,7 @@ html {
 
 body{
   background: var(--bg-color);
-  color: var(--text-color);
-  color: #ededed; 
+  color: var(--text-color); 
   background: #010e0c;
 }
 
@@ -308,89 +307,8 @@ span {
   margin: 1rem 0 3rem;
 }
 
-.read {
-  display: inline-block;
-  padding: 12px 28px;
-  background: #EDF4F2;
-  border-radius: 40px;
-  font-size: 16px;
-  color: #010e0c;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 2s;
-  box-shadow: 0 0 5px #EDF4F2, 0 0 25px #EDF4F2;
-}
-
-.read:hover {
-  background: #EDF4F2;
-  color: #010e0c;
-  box-shadow: 0 0 5px #EDF4F2,
-    0 0 25px #EDF4F2, 0 0 50px #EDF4F2;
-}
-
-.services-list div:hover {
-  transform: translateY(-10px);
-}
-
-/* section {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-.container1 {
-  width: 600px;
-  height: 500px;
-  padding: 75px 90px;
-  margin-left: 120px;
-}
-
-.heading1 {
-  text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 5px;
-  margin-bottom: 50px;
-}
-
-.bar {
-  font-size: 23px;
-}
-
-.Technical-bars .bar {
-  margin-top: 40px 0;
-}
-
-.Technical-bars .bar:first-child {
-  margin-top: 0;
-}
-
-.Technical-bars .bar:last-child {
-  margin-bottom: 0;
-}
-
-.Technical-bars .bar .info {
-  margin-bottom: 5px;
-}
-
-.Technical-bars .bar .info span {
-  font-size: 17px;
-  font-weight: 500;
-  animation: showText .5s 1s linear forwards;
-  opacity: 0;
-}
-
-.Technical-bars .bar .progress-line {
-  position: relative;
-  border-radius: 10px;
-  width: 100%;
-  height: 5px;
-  border-color: black;
-  animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  transform: scaleX(0);
-  transform-origin: left;
+.portfolio {
+  background: var(--second-bg-color);
 }
 
 /*Keys for bar*/
