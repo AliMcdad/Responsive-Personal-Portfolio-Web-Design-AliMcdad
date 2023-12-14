@@ -95,6 +95,11 @@ section {
   align-items: center;
   /* padding: 70px 10% 0; */
 }
+
+.home-img {
+  width: 35vw;
+}
+
 /* 
 .home-content {
   max-width: 600px;
