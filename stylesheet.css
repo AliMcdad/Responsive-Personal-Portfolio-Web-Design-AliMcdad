@@ -306,10 +306,11 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+  margin: 2rem;
 }
 
 .portfolio-box img {
-  width: 100%;
+  width:  100%;
 }
 
 .portfolio-box .portfolio-layer {
