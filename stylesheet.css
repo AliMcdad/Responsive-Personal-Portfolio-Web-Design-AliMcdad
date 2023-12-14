@@ -26,9 +26,6 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
-}
-
-body {
   color: #ededed;
   background: #010e0c;
 }
@@ -81,7 +78,7 @@ body {
   display: none;
 }
 
-.home {
+/* .home {
   position: relative;
   width: 100%;
   justify-content: space-between;
@@ -92,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
-}
+} */
 
 .home-content {
   max-width: 600px;
@@ -133,7 +130,7 @@ body {
   animation-delay: 1s;
 }
 
-.home-sci a {
+.social-media a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -152,7 +149,7 @@ body {
   margin: 30px 15px 30px 0;
 }
 
-.home-sci a:hover {
+.social-media a:hover {
   background: #7C8363;
   color: #010e0c;
   box-shadow: 0 0 5px #7C8363,
@@ -306,10 +303,10 @@ body {
   transform: translateY(-10px);
 }
 
-section {
+/* section {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .container1 {
   width: 600px;
