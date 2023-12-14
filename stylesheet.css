@@ -323,6 +323,18 @@ span {
   gap: 2.5rem;
 }
 
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+
+.portfolio-box img {
+  width: 100%;
+}
+
 /*Keys for bar*/
 
 @keyframes animate {
