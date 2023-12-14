@@ -289,7 +289,10 @@ span {
   border: .2rem solid var(--bg-color);
 }
 
-
+.services-box i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
 
 .read {
   display: inline-block;
