@@ -169,7 +169,15 @@ section {
     /* 0 0 25px #7C8363, 0 0 50px #7C8363; */
 }
 
-.btn-box {
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color)
+}
+
+/* .btn-box {
   display: inline-block;
   padding: 12px 28px;
   background: #EDF4F2;
@@ -188,7 +196,7 @@ section {
 .btn-box:hover {
   box-shadow: 0 0 5px #EDF4F2,
     0 0 25px #EDF4F2, 0 0 50px #EDF4F2, 0 0 100px #EDF4F2;
-}
+} */
 
 
 .about {
