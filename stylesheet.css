@@ -181,6 +181,11 @@ section {
   font-weight: 600;
 }
 
+.btn:hover {
+  
+  box-shadow: none; 
+}
+
 /* .btn-box {
   display: inline-block;
   padding: 12px 28px;
