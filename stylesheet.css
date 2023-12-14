@@ -213,7 +213,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--main-color)
+  background: var(--second-bg-color)
 }
 
 .about-img img {
