@@ -11,12 +11,12 @@
   font-family: 'poppins', sans-serif;
 }
 
-:root {
+/* :root {
   --bg-color: #ededed;
   --second-bg-color: #31473A;
   --text-color: #31473A;
   --main-color: #EAB63E;
-}
+} */
 
 html {
   font-size: 62.5%;
@@ -26,8 +26,8 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
-  color: #ededed; 
   background: #010e0c;
+  color: #ededed; 
 }
 
 section {
