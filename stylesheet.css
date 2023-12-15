@@ -61,7 +61,7 @@ section {
 .navbar a {
   /* display: inline-block; */
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: #cac403;
   /* text-decoration: none;
   font-weight: 500; */
   margin-left: 4rem;
