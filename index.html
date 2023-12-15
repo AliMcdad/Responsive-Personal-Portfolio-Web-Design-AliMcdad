@@ -1,206 +1,269 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Web Design | AliMcdad</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Personal Portfolio Web Design | AliMcdad</title>
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- box icons -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom CSS. -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-  <!-- custom CSS. -->
-  <link rel="stylesheet" href="stylesheet.css">
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
 
-<body>
-  <header class="header">
-    <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-    <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <nav class="navbar">
-      <a href="#home"  class="active">Home</a>
-      <a href="#about" >About</a>
-      <a href="#services" >Services</a>
-      <a href="#portfolio" >Portfolio</a>
-      <a href="#contact" >Contact</a>
-    </nav>
-  </header>
-
-  <!-- home section design -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <h3>Hello, it's Me</h3>
-      <h1>Ali Mcdad</h1>
-      <h3>And I'm a <span class="text"></span></h3>
-      <p>
-        I'm a Web Designer with extensive experience for over 3 years expertise in creating and managing websites.
-      </p>
-      <div class="social-media">
-        <a href="#" style="--i:6"><i class='bx bxl-facebook'></i></a>
-        <a href="#" style="--i:7"><i class='bx bxl-instagram'></i></a>
-        <a href="#" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
-        <a href="#" style="--i:9"><i class='bx bxl-linkedin'></i></a>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, it's Me</h3>
+        <h1>Ali Mcdad</h1>
+        <h3>And I'm a <span class="mlultiple-text"></span></h3>
+        <p>
+          I'm a Web Designer with extensive experience for over 3 years
+          expertise in creating and managing websites.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
       </div>
-      <a href="#" class="btn">Download CV</a>
-    </div>
-    <div class="home-img">
-      <img src="https://images.pexels.com/photos/7253624/pexels-photo-7253624.jpeg?auto=compress&cs=tinysrgb&w=800"
-        alt="">
-    </div>
-  </section>
-
-  <!-- about section design -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img
-        src="https://images.unsplash.com/photo-1611591378657-5cc32671b3f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvZ2d5JTIwZm9yZXN0fGVufDB8fDB8fHww"
-        alt="">
-    </div>
-    <div class="about-content">
-      <h2 class="heading">About <span>Me</span></h2>
-      <h3>Full Stack Developer!</h3>
-      <p>
-        I'm a skilled web developer with experience of 3 years of developing and designing
-        websites for freelancing. Throughout my career I set a pack of knowledge on how to represent
-        not only user friendly websitesbut also effective and efficient sites for multiple companies and careers.</p>
-
-      <a href="#" class="btn">More About Me</a>
-    </div>
-  </section>
-
-  <!-- services section design -->
-  <section class="services" id="services">
-    <h2 class="heading">Our <span>Services</span></h2>
-
-    <div class="services-container">
-      <div class="services-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Web Development</h3>
-        <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-          includes collaborating with product managers and engineers to gather requirements from users before
-          designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-        <a href="" class="btn">Read More</a>
+      <div class="home-img">
+        <img
+          src="https://images.pexels.com/photos/7253624/pexels-photo-7253624.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt=""
+        />
       </div>
+    </section>
 
-      <div class="services-box">
-        <i class='bx bxs-paint'></i>
-        <h3>Graphic Design</h3>
-        <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-          includes collaborating with product managers and engineers to gather requirements from users before
-          designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-        <a href="" class="btn">Read More</a>
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="https://images.unsplash.com/photo-1611591378657-5cc32671b3f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvZ2d5JTIwZm9yZXN0fGVufDB8fDB8fHww"
+          alt=""
+        />
       </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Developer!</h3>
+        <p>
+          I'm a skilled web developer with experience of 3 years of developing
+          and designing websites for freelancing. Throughout my career I set a
+          pack of knowledge on how to represent not only user friendly
+          websitesbut also effective and efficient sites for multiple companies
+          and careers.
+        </p>
 
-      <div class="services-box">
-        <i class='bx bxs-data'></i>
-        <h3>Data Management</h3>
-        <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-          includes collaborating with product managers and engineers to gather requirements from users before
-          designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-        <a href="" class="btn">Read More</a>
+        <a href="#" class="btn">More About Me</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- portfolio section design -->
-  <secction class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Projects</span></h2>
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
 
-    <div class="portfolio-container">
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            UI UX designers create the user interface for an app, website, or
+            other interactive media. Their work includes collaborating with
+            product managers and engineers to gather requirements from users
+            before designing ideas that can be communicated using storyboards.
+            They also process flows or sitemaps.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
 
-      <div class="portfolio-box">
-        <img src="img\portfolio1.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            UI UX designers create the user interface for an app, website, or
+            other interactive media. Their work includes collaborating with
+            product managers and engineers to gather requirements from users
+            before designing ideas that can be communicated using storyboards.
+            They also process flows or sitemaps.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-data"></i>
+          <h3>Data Management</h3>
+          <p>
+            UI UX designers create the user interface for an app, website, or
+            other interactive media. Their work includes collaborating with
+            product managers and engineers to gather requirements from users
+            before designing ideas that can be communicated using storyboards.
+            They also process flows or sitemaps.
+          </p>
+          <a href="" class="btn">Read More</a>
         </div>
       </div>
+    </section>
 
-      <div class="portfolio-box">
-        <img src="img\portfolio2.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
+    <!-- portfolio section design -->
+    <secction class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img\portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img\portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img\portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img\portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img\portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img\portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
         </div>
       </div>
+    </secction>
 
-      <div class="portfolio-box">
-        <img src="img\portfolio3.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
         </div>
-      </div>
-
-      <div class="portfolio-box">
-        <img src="img\portfolio4.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
+        <div class="input-box">
+          <input type="text" placeholder="Email Subject" />
+          <input type="number" placeholder="Mobile Number" />
         </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by AliMcdad | All Rights Reserved.</p>
       </div>
-
-      <div class="portfolio-box">
-        <img src="img\portfolio5.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
-        </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
+    </footer>
 
-      <div class="portfolio-box">
-        <img src="img\portfolio6.jpg" alt="">
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work
-            includes collaborating with product managers and engineers to gather requirements from users before
-            designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
-            <a href="#"><i class='bx bx-link-external' ></i></a>
-        </div>
-      </div>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    </div>
-  </secction>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- contact section design -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
-    <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-      </div>
-      <div class="input-box">
-        <input type="text" placeholder="Email Subject">
-        <input type="number" placeholder="Mobile Number">
-      </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message" class="btn">
-    </form>
-  </section>
-
-
-  <!-- custom javascript -->
-  <script src="main.js"></script>
-</body>
-
+    <!-- custom javascript -->
+    <script src="main.js"></script>
+  </body>
 </html>
