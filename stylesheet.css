@@ -23,7 +23,7 @@ html {
 }
 
 body{
-  /* background: var(--bg-color); */
+  background: var(--bg-color);
   color: var(--text-color);
   background: #010e0c;
   color: #ededed; 
