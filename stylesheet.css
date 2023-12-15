@@ -13,7 +13,7 @@
 :root {
   --bg-color: #ededed;
   --second-bg-color: #31473A;
-  --text-color: #d9d9d9;
+  --text-color: #cac403;
   --main-color: #EAB63E;
 }
 
@@ -23,8 +23,8 @@ html {
 }
 
 body{
-  background: var(--bg-color);
-  color: var(--text-color);
+  /* background: var(--bg-color);
+  color: var(--text-color); */
   background: #010e0c;
   color: #ededed; 
 } 
